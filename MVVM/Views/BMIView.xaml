@@ -22,7 +22,7 @@
                            VerticalOptions="Center"
                            Text="Height (cm)"
                            TextColor="Gray"/>
-                    <Entry Keyboard="Numeric" Text="{Binding BMI.Height,StringFormat='{0:0}'}"
+                    <Entry Keyboard="Numeric" Text="{Binding BMI.Height,StringFormat='{0:0.0}'}"
                            TextColor="Black"/>
                 </FlexLayout>
                 
@@ -63,7 +63,7 @@
                             Text="Weight (kg)"
                             TextColor="Gray"
                             VerticalOptions="Center"/>
-                    <Entry Keyboard="Numeric" Text="{Binding BMI.Weight, StringFormat='{0:0}'}"
+                    <Entry Keyboard="Numeric" Text="{Binding BMI.Weight, StringFormat='{0:0.0}'}"
                            TextColor="Black"/>
                 </FlexLayout>
                     
@@ -102,12 +102,12 @@
                             FontSize="Subtitle"
                             HorizontalOptions="Center"
                             Text="{Binding BMI.ResultText}"
-                            TextColor="Gray"/>
+                            TextColor="White"/>
                         <Label
                             FontSize="Subtitle"
                             HorizontalOptions="Center"
-                            Text="{Binding BMI.Result, StringFormat='{00:00}'}"
-                            TextColor="Gray"/>
+                            Text="{Binding BMI.Result, StringFormat='{0:0.0}'}"
+                            TextColor="White"/>
 
                     </FlexLayout>
                 </Frame>
@@ -200,8 +200,8 @@
                                         KnobRadius="0"
                                         KnobSizeUnit="Pixel"
                                         NeedleEndWidth="0"
-                                        NeedleLength="0.6"
-                                        NeedleStartWidth="2"
+                                        NeedleLength="0.3"
+                                        NeedleStartWidth="1"
                                         Value="{Binding BMI.Result}"
                                         NeedleFill="OrangeRed"
                                         KnobFill="OrangeRed"
