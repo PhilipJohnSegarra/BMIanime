@@ -9,7 +9,7 @@ namespace BMIanime
         {
             var builder = MauiApp.CreateBuilder();
 
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NDaF5cWWtCf1JpR3xbf1x0ZFRHal1WTnVWUiweQnxTdEFiWX1YcXVUQWNVWUN2WQ==");
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NDaF5cWWtCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdnWH9ceHZWRmVfU0F1WEQ=");
             builder.ConfigureSyncfusionCore();
             builder
                 .UseMauiApp<App>()
